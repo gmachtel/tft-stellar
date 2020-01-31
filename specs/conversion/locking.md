@@ -4,7 +4,7 @@ In the v1.3 release of tfchain, locking of accounts has been added to support th
 
 ## Why
 
-Eventually, all TFT have to be migrated after which no TFT remains on tchain, the problem is solved then.
+Ultimate goal is to have all TFT have to be migrated after which no TFT remains on tfchain. After the migration, TFchain only remains relevant for history of transactions. 
 
 During the transition, the wallet of the user needs to initiate the conversion as explained in the [conversion document](./conversion.md).
 
@@ -26,6 +26,6 @@ Essentially the same but not so graceful and no hashes to include in the coin is
 
 ### Atomic Swaps
 
-As explained in the "why", this means having TFT running on both platforms and the traceability of coin creation because of the migration is far less.
+As explained in the "why", this means having TFT running on both platforms. Moreover there is far lower traceability of coin creation due to the migration (as it is mixed with other transfers).
 
 ## Process
